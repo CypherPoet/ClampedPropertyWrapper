@@ -28,7 +28,7 @@
 
 <p align="center">
 
-_A [Swift Property Wrapper](https://docs.swift.org/swift-book/LanguageGuide/Properties.html#ID617) for automatically clamping values within a range.._
+_A [Swift Property Wrapper](https://docs.swift.org/swift-book/LanguageGuide/Properties.html#ID617) for automatically clamping Comparable values within a closed range._
 
 <p />
 
