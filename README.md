@@ -74,7 +74,26 @@ Then simply `import ClampedPropertyWrapper` wherever you’d like to use it.
 
 ## Usage
 
+**Basic Example**:
 
+```swift
+import ClampedPropertyWrapper
+
+struct Player {
+    @Clamped(within: 0.0...Double.infinity)
+    var xp: Double = 0.0
+
+    @Clamped(within: 1...100)
+    var level: Int = 1
+
+    @Clamped(within: "A"..."Z")
+    var firstInitial: Character = "A"
+}
+```
+
+**Taking it a bit further in [this project's Xcode Playground](./Examples/Playgrounds/)**:
+
+![Playground Example](./Extras/playground-example-1.png)
 
 ## Contributing
 

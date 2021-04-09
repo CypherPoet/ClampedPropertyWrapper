@@ -3,8 +3,8 @@ import Foundation
 @propertyWrapper
 public struct Clamped<Value: Comparable> {
     
-    var value: Value
-    var range: ClosedRange<Value>
+    private var value: Value
+    private var range: ClosedRange<Value>
     
     
     // MARK: - Init
@@ -41,5 +41,3 @@ extension Clamped {
         )
     }
 }
-
-
