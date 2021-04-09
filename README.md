@@ -48,7 +48,7 @@ You can add `ClampedPropertyWrapper` as a package dependency in your `Package.sw
 let package = Package(
     //...
     dependencies: [
-        .package(url: "https://github.com/CypherPoet/ClampedPropertyWrapper", .exact("0.0.1")),
+        .package(url: "https://github.com/CypherPoet/ClampedPropertyWrapper", .upToNextMajor(from: "0.1.0")),
     ],
     //...
 )
