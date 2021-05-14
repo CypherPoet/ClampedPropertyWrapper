@@ -28,5 +28,3 @@ jobs:
           branch: gh-pages
           folder: Documentation
           single-commit: true
-        # env:
-        #   GH_PERSONAL_ACCESS_TOKEN: ${{ secrets.GH_PAGES_ACCESS_TOKEN }}
