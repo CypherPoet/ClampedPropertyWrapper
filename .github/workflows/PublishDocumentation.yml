@@ -15,7 +15,6 @@ jobs:
           inputs: "Sources/ClampedPropertyWrapper"
           module-name: ClampedPropertyWrapper
           format: html
-          base-url: "./"
           output: "Documentation"
 
       # Fix for https://github.com/SwiftDocOrg/swift-doc/issues/83#issuecomment-692299268
